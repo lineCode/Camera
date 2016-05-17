@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/app_color"
+                android:orientation="vertical"
+                >
+
+    <ImageView
+        android:id="@+id/screen_left_btn"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/selector_toolbar_home_icon_bg"
+        android:scaleType="centerInside"
+        android:src="@drawable/app_bar_back"/>
+
+    <TextView
+        android:id="@+id/tv_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:singleLine="true"
+        android:text="相册选择"
+        android:textColor="@color/app_bar_text_color"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_screen_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:text="完成"
+        android:textColor="@color/app_bar_text_color"
+        android:textSize="16sp"/>
+</RelativeLayout>

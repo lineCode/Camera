@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_back_gray">#F6F4F4</color>
+    <color name="bg_dark_gray_text">#3F4246</color>
+    <color name="line">#e0e0e0</color>
+    <color name="bg_gray_text">#6A6F75</color>
+    <color name="transparent">#00000000</color>
+    <color name="app_color">#252729</color>
+    <color name="toolbar_home_icon_select">#30000000</color>
+    <color name="app_bar_text_color">#f0f7ff</color>
+</resources>
