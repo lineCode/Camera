@@ -64,6 +64,7 @@ public class AlbumActivity extends Activity implements ImageDirListDialog.OnImag
     private int mNeedSelectAmount = 1;
     private ImageDirListDialog mImageDirListDialog;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

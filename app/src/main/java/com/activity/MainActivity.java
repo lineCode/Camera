@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mAdapter = new CameraGridViewAdapter(this);
         mAdapter.setBitmapList(mBitmapList);
         mGridView.setAdapter(mAdapter);
-
     }
 
     @Override
